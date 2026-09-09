@@ -1,20 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T14:04:02+09:00",
+  "generated_at": "2026-09-09T19:34:55+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 0,
-      "recent_count": 3,
-      "species": [],
-      "summary": "登録情報源で直近7日の情報を確認できませんでした"
+      "new_count": 1,
+      "recent_count": 2,
+      "species": [
+        "アジ",
+        "カンパチ"
+      ],
+      "summary": "アジ・カンパチなど1件"
     }
   ],
   "sources": {
-    "success": 2,
+    "success": 3,
     "failed": 0
   }
 }
