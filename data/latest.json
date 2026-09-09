@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T07:26:40+09:00",
-  "status": "failed",
+  "generated_at": "2026-09-09T14:04:02+09:00",
+  "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
       "new_count": 0,
-      "recent_count": 0,
+      "recent_count": 3,
       "species": [],
       "summary": "登録情報源で直近7日の情報を確認できませんでした"
     }
   ],
   "sources": {
-    "success": 0,
+    "success": 2,
     "failed": 0
   }
 }
