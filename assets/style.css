@@ -1,1 +1,97 @@
-*{box-sizing:border-box}body{margin:0;background:#f3f6f5;color:#18322b;font-family:system-ui,sans-serif}main{max-width:760px;margin:auto;padding:20px}header{background:#075c4a;color:white;padding:20px;border-radius:16px}.area,article{display:block;background:white;margin:14px 0;padding:18px;border-radius:14px;box-shadow:0 2px 10px #0001;color:inherit;text-decoration:none}.area strong{color:#b34822}.new{background:#b34822;color:white;font-size:.62rem;border-radius:999px;padding:2px 8px;margin-left:8px;vertical-align:middle;letter-spacing:.04em}a{color:#076b8d}h1,h2,h3{margin:.2em 0}p{line-height:1.6}header p{opacity:.88;font-size:.85rem}
+*{box-sizing:border-box}
+:root{
+  --ground:#eef2f0; --surface:#fff; --ink:#14201c; --muted:#63726c;
+  --rule:#dde5e1; --accent:#0d6b56; --hot:#a8432b; --chip:#e7efeb;
+  --lift:0 1px 2px rgba(16,40,33,.05),0 8px 20px rgba(16,40,33,.06);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --ground:#0e1312; --surface:#171e1b; --ink:#e4ebe7; --muted:#8a9893;
+    --rule:#252f2b; --accent:#74c6a8; --hot:#e08a6d; --chip:#202a26;
+    --lift:0 1px 2px rgba(0,0,0,.5),0 8px 20px rgba(0,0,0,.35);
+  }
+}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;
+  font-size:16px; line-height:1.6; -webkit-text-size-adjust:100%;
+}
+main{max-width:44rem; margin:0 auto; padding:0 16px 40px}
+a{color:inherit; text-decoration:none}
+
+.top{padding:28px 4px 20px}
+.top h1{margin:0; font-size:1.6rem; letter-spacing:.01em; line-height:1.3}
+.back{
+  display:inline-block; margin-bottom:10px; font-size:.85rem;
+  color:var(--accent); font-weight:600;
+}
+.back:hover{text-decoration:underline}
+.stamp{margin:8px 0 0; font-size:.8rem; color:var(--muted);
+  font-variant-numeric:tabular-nums}
+
+.counts{
+  display:flex; flex-wrap:wrap; gap:6px 14px; align-items:baseline;
+  margin:0 0 18px; padding:12px 16px; border-radius:12px;
+  background:var(--surface); box-shadow:var(--lift); font-size:.85rem;
+  font-variant-numeric:tabular-nums;
+}
+.counts b{color:var(--hot)}
+.counts span{color:var(--muted)}
+
+.areas{display:grid; gap:12px}
+.area{
+  display:block; background:var(--surface); border-radius:16px;
+  padding:18px 18px 16px; box-shadow:var(--lift);
+  border:1px solid transparent; transition:border-color .15s;
+}
+.area:hover{border-color:var(--accent)}
+.area .line{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+.area .name{font-size:1.15rem; font-weight:700}
+.area .lead{display:block; margin-top:6px; color:var(--muted); font-size:.9rem}
+
+.day{
+  margin:24px 4px 10px; font-size:.82rem; font-weight:700;
+  letter-spacing:.08em; color:var(--muted);
+}
+.list{display:grid; gap:10px}
+
+.catch{
+  display:block; background:var(--surface); border-radius:14px;
+  padding:14px 16px; box-shadow:var(--lift);
+  border:1px solid transparent; transition:border-color .15s;
+}
+.catch:hover{border-color:var(--accent)}
+.catch p{margin:0}
+.fish{display:flex; flex-wrap:wrap; gap:6px; align-items:center}
+.sp{
+  background:var(--chip); color:var(--ink); border-radius:999px;
+  padding:3px 11px; font-size:.9rem; font-weight:600; line-height:1.5;
+}
+.sp.none{background:transparent; color:var(--muted); font-weight:400; padding-left:0}
+.new{
+  background:var(--hot); color:#fff; border-radius:999px;
+  padding:2px 9px; font-size:.68rem; font-weight:700; letter-spacing:.06em;
+}
+.quiet{color:var(--muted); font-size:.8rem}
+.title{
+  margin-top:8px!important; font-size:.92rem; color:var(--ink);
+  overflow-wrap:anywhere;
+  /* 見出しを持たない情報源は日付や場所を丸ごと並べた長い文字列を出す。
+     2行で切り、カードの高さを揃える。全文は元の記事で読める。 */
+  display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2;
+  line-clamp:2; overflow:hidden;
+}
+.foot{
+  margin-top:8px!important; display:flex; flex-wrap:wrap; gap:4px 12px;
+  font-size:.78rem; color:var(--muted);
+}
+.spot{color:var(--accent); font-weight:600}
+.spot::before{content:"📍 "}
+
+.blank{
+  margin:0; padding:40px 20px; text-align:center; color:var(--muted);
+  background:var(--surface); border-radius:16px; box-shadow:var(--lift);
+}
+
+footer{margin-top:32px; padding:0 4px; color:var(--muted); font-size:.75rem}
+footer p{margin:4px 0}
