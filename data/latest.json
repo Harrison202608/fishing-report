@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T19:45:48+09:00",
+  "generated_at": "2026-09-09T19:54:09+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
@@ -8,17 +8,17 @@
       "id": "awaji",
       "label": "淡路島",
       "new_count": 1,
-      "recent_count": 11,
+      "recent_count": 19,
       "species": [
+        "アオリイカ",
         "マダイ",
-        "タチウオ",
-        "アジ"
+        "タチウオ"
       ],
-      "summary": "マダイ・タチウオ・アジなど1件"
+      "summary": "アオリイカ・マダイ・タチウオなど1件"
     }
   ],
   "sources": {
     "success": 3,
-    "failed": 0
+    "failed": 1
   }
 }
