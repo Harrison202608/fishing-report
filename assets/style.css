@@ -3,12 +3,14 @@
   --ground:#eef2f0; --surface:#fff; --ink:#14201c; --muted:#63726c;
   --rule:#dde5e1; --accent:#0d6b56; --hot:#a8432b; --chip:#e7efeb;
   --lift:0 1px 2px rgba(16,40,33,.05),0 8px 20px rgba(16,40,33,.06);
+  --on-heat:#14201c;
 }
 @media (prefers-color-scheme:dark){
   :root{
     --ground:#0e1312; --surface:#171e1b; --ink:#e4ebe7; --muted:#8a9893;
     --rule:#252f2b; --accent:#74c6a8; --hot:#e08a6d; --chip:#202a26;
     --lift:0 1px 2px rgba(0,0,0,.5),0 8px 20px rgba(0,0,0,.35);
+    --on-heat:#0e1312;
   }
 }
 body{
@@ -92,6 +94,33 @@ a{color:inherit; text-decoration:none}
   margin:0; padding:40px 20px; text-align:center; color:var(--muted);
   background:var(--surface); border-radius:16px; box-shadow:var(--lift);
 }
+
+/* 年表（いつ何が釣れた）— 魚種×週の件数表 */
+.lead2{margin:0 4px 14px; color:var(--muted); font-size:.85rem}
+.grid-wrap{
+  overflow-x:auto; background:var(--surface); border-radius:14px;
+  box-shadow:var(--lift); padding:4px 0 4px 4px;
+}
+.grid{border-collapse:separate; border-spacing:2px; font-size:.8rem;
+  font-variant-numeric:tabular-nums}
+.grid th, .grid td{padding:5px 7px; text-align:center; white-space:nowrap}
+.grid thead th{color:var(--muted); font-weight:600; font-size:.72rem}
+/* 魚種名は横スクロールしても見えるように左へ貼り付ける */
+.grid th[scope=row], .grid thead th:first-child{
+  position:sticky; left:0; z-index:1; background:var(--surface);
+  text-align:left; font-weight:600; padding-right:12px;
+}
+.grid td{border-radius:4px; color:var(--ink)}
+.grid .h0{color:var(--rule)}
+.grid .h1{background:color-mix(in srgb, var(--accent) 14%, transparent)}
+.grid .h2{background:color-mix(in srgb, var(--accent) 30%, transparent)}
+.grid .h3{background:color-mix(in srgb, var(--accent) 48%, transparent)}
+.grid .h4{background:color-mix(in srgb, var(--accent) 68%, transparent);
+  font-weight:700}
+/* 濃いセルは、明暗それぞれで地色と十分な差が出る側の文字色に寄せる。
+   暗いテーマではaccentが明るい緑なので、白のままだと数字が沈む。 */
+.grid .h3, .grid .h4{color:var(--on-heat)}
+.grid .sum{color:var(--muted); font-weight:600}
 
 footer{margin-top:32px; padding:0 4px; color:var(--muted); font-size:.75rem}
 footer p{margin:4px 0}
