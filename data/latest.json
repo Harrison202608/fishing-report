@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T06:02:42+09:00",
+  "generated_at": "2026-09-15T06:21:05+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
@@ -19,22 +19,30 @@
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 0,
-      "recent_count": 0,
-      "species": [],
-      "summary": "登録情報源で直近14日の情報を確認できませんでした"
+      "new_count": 20,
+      "recent_count": 34,
+      "species": [
+        "アオリイカ",
+        "アジ",
+        "青物"
+      ],
+      "summary": "アオリイカ・アジ・青物など20件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 0,
-      "recent_count": 0,
-      "species": [],
-      "summary": "登録情報源で直近14日の情報を確認できませんでした"
+      "new_count": 13,
+      "recent_count": 39,
+      "species": [
+        "サヨリ",
+        "イワシ",
+        "アオリイカ"
+      ],
+      "summary": "サヨリ・チヌ・イワシなど13件"
     }
   ],
   "sources": {
-    "success": 5,
+    "success": 13,
     "failed": 0
   }
 }
