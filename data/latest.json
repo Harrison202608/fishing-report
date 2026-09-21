@@ -1,49 +1,49 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T06:16:02+09:00",
+  "generated_at": "2026-09-22T06:16:40+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 5,
+      "new_count": 1,
       "recent_count": 23,
       "species": [
         "タチウオ",
-        "アジ",
-        "アオリイカ"
+        "アオリイカ",
+        "アジ"
       ],
-      "summary": "タチウオ・コウイカ・アジなど5件"
+      "summary": "タチウオなど1件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 15,
-      "recent_count": 21,
+      "new_count": 19,
+      "recent_count": 24,
       "species": [
         "アオリイカ",
-        "アジ",
-        "サバ"
+        "カワハギ",
+        "タチウオ"
       ],
-      "summary": "アオリイカ・アジ・サバなど15件"
+      "summary": "アオリイカ・カワハギ・タチウオなど19件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 14,
-      "recent_count": 37,
+      "new_count": 15,
+      "recent_count": 38,
       "species": [
         "サバ",
-        "アジ",
-        "イワシ"
+        "イワシ",
+        "アジ"
       ],
-      "summary": "サバ・サヨリ・チヌなど14件"
+      "summary": "サバ・イワシ・サヨリなど15件"
     }
   ],
   "sources": {
     "success": 13,
     "failed": 0,
-    "articles": 36
+    "articles": 37
   }
 }
