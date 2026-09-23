@@ -1,49 +1,94 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T06:12:52+09:00",
+  "generated_at": "2026-09-24T06:12:42+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 8,
-      "recent_count": 22,
+      "new_count": 4,
+      "recent_count": 21,
       "species": [
         "タチウオ",
         "アオリイカ",
-        "アジ"
+        "カワハギ"
       ],
-      "summary": "アオリイカ・アジ・タチウオなど8件"
+      "summary": "アオリイカ・タチウオ・キスなど4件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 24,
-      "recent_count": 28,
+      "new_count": 25,
+      "recent_count": 39,
       "species": [
-        "アジ",
+        "カワハギ",
         "アオリイカ",
-        "青物"
+        "メジロ"
       ],
-      "summary": "アジ・アオリイカ・青物など24件"
+      "summary": "アオリイカ・カワハギ・アジなど25件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 15,
-      "recent_count": 39,
+      "new_count": 13,
+      "recent_count": 35,
       "species": [
         "サバ",
-        "アジ",
+        "イワシ",
         "サヨリ"
       ],
-      "summary": "アジ・サバ・サヨリなど15件"
+      "summary": "サバ・イワシ・チヌなど13件"
+    },
+    {
+      "id": "maizuru",
+      "label": "舞鶴",
+      "new_count": 7,
+      "recent_count": 8,
+      "species": [
+        "アオリイカ",
+        "コウイカ"
+      ],
+      "summary": "アオリイカ・コウイカなど7件"
+    },
+    {
+      "id": "kyotango",
+      "label": "京丹後",
+      "new_count": 6,
+      "recent_count": 8,
+      "species": [
+        "アオリイカ",
+        "コウイカ"
+      ],
+      "summary": "アオリイカなど6件"
+    },
+    {
+      "id": "wakasa",
+      "label": "若狭（小浜・高浜）",
+      "new_count": 8,
+      "recent_count": 8,
+      "species": [
+        "アオリイカ",
+        "コウイカ"
+      ],
+      "summary": "アオリイカ・コウイカなど8件"
+    },
+    {
+      "id": "wakayama",
+      "label": "和歌山市周辺",
+      "new_count": 19,
+      "recent_count": 36,
+      "species": [
+        "タチウオ",
+        "アオリイカ",
+        "アイゴ"
+      ],
+      "summary": "アオリイカ・タチウオ・アジなど19件"
     }
   ],
   "sources": {
-    "success": 13,
+    "success": 25,
     "failed": 0,
-    "articles": 46
+    "articles": 60
   }
 }
