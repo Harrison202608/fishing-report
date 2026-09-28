@@ -1,93 +1,93 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T06:16:26+09:00",
+  "generated_at": "2026-09-29T06:16:18+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 1,
+      "new_count": 2,
       "recent_count": 22,
       "species": [
         "タチウオ",
         "アオリイカ",
         "シオ"
       ],
-      "summary": "アオリイカなど1件"
+      "summary": "タチウオ・チヌ・カワハギなど2件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 17,
+      "new_count": 10,
       "recent_count": 32,
       "species": [
-        "アオリイカ",
         "メジロ",
+        "アオリイカ",
         "カワハギ"
       ],
-      "summary": "アオリイカ・アジ・メジロなど17件"
+      "summary": "メジロ・青物・アジなど10件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 17,
-      "recent_count": 33,
+      "new_count": 8,
+      "recent_count": 30,
       "species": [
         "サバ",
-        "イワシ",
-        "チヌ"
+        "チヌ",
+        "アジ"
       ],
-      "summary": "サバ・チヌ・イワシなど17件"
+      "summary": "チヌ・サバ・グレなど8件"
     },
     {
       "id": "maizuru",
       "label": "舞鶴",
-      "new_count": 8,
+      "new_count": 1,
       "recent_count": 9,
       "species": [
         "アオリイカ",
         "スズキ",
         "コウイカ"
       ],
-      "summary": "アオリイカ・コウイカなど8件"
+      "summary": "アオリイカなど1件"
     },
     {
       "id": "kyotango",
       "label": "京丹後",
-      "new_count": 7,
+      "new_count": 0,
       "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "アオリイカなど7件"
+      "summary": "新着なし。直近14日はアオリイカなど8件"
     },
     {
       "id": "wakasa",
       "label": "若狭",
-      "new_count": 5,
+      "new_count": 4,
       "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "アオリイカなど5件"
+      "summary": "アオリイカなど4件"
     },
     {
       "id": "wakayama",
       "label": "和歌山市",
-      "new_count": 22,
-      "recent_count": 40,
+      "new_count": 10,
+      "recent_count": 38,
       "species": [
         "タチウオ",
         "アオリイカ",
         "アジ"
       ],
-      "summary": "アオリイカ・タチウオ・アジなど22件"
+      "summary": "アオリイカ・タチウオ・コロダイなど10件"
     }
   ],
   "sources": {
     "success": 25,
     "failed": 0,
-    "articles": 60
+    "articles": 43
   }
 }
