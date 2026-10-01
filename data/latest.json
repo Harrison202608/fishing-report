@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T06:16:01+09:00",
+  "generated_at": "2026-10-02T05:02:37+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 7,
-      "recent_count": 23,
+      "new_count": 5,
+      "recent_count": 22,
       "species": [
         "タチウオ",
         "アオリイカ",
         "シオ"
       ],
-      "summary": "アオリイカ・コウイカ・メジロなど7件"
+      "summary": "アオリイカ・コウイカなど5件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 19,
-      "recent_count": 21,
+      "new_count": 9,
+      "recent_count": 19,
       "species": [
         "アオリイカ",
         "ハマチ",
         "カワハギ"
       ],
-      "summary": "アオリイカ・ハマチ・カワハギなど19件"
+      "summary": "アオリイカ・ハマチ・サバなど9件"
     },
     {
       "id": "hanshinkan",
@@ -38,7 +38,7 @@
         "チヌ",
         "アジ"
       ],
-      "summary": "サバ・サヨリ・チヌなど10件"
+      "summary": "サバ・アイゴ・チヌなど10件"
     },
     {
       "id": "maizuru",
@@ -49,47 +49,47 @@
         "アオリイカ",
         "スズキ"
       ],
-      "summary": "スズキ・アオリイカなど2件"
+      "summary": "アオリイカなど2件"
     },
     {
       "id": "kyotango",
       "label": "京丹後",
-      "new_count": 2,
+      "new_count": 0,
       "recent_count": 6,
       "species": [
         "アオリイカ",
-        "サバ",
-        "ブリ"
+        "コウイカ",
+        "サバ"
       ],
-      "summary": "アオリイカなど2件"
+      "summary": "新着なし。直近14日はアオリイカ・コウイカ・サバなど6件"
     },
     {
       "id": "wakasa",
       "label": "若狭",
-      "new_count": 8,
+      "new_count": 5,
       "recent_count": 8,
       "species": [
         "アオリイカ",
         "コウイカ"
       ],
-      "summary": "アオリイカ・コウイカなど8件"
+      "summary": "アオリイカ・コウイカなど5件"
     },
     {
       "id": "wakayama",
       "label": "和歌山市",
-      "new_count": 16,
+      "new_count": 5,
       "recent_count": 39,
       "species": [
         "タチウオ",
         "アジ",
         "アオリイカ"
       ],
-      "summary": "アオリイカ・アジ・カワハギなど16件"
+      "summary": "アジ・アオリイカ・タチウオなど5件"
     }
   ],
   "sources": {
     "success": 24,
     "failed": 1,
-    "articles": 60
+    "articles": 42
   }
 }
