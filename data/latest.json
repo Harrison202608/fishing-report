@@ -1,55 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T05:16:12+09:00",
+  "generated_at": "2026-10-10T05:15:31+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 9,
-      "recent_count": 29,
+      "new_count": 8,
+      "recent_count": 27,
       "species": [
-        "タチウオ",
         "アオリイカ",
+        "タチウオ",
         "アジ"
       ],
-      "summary": "アオリイカ・タチウオ・コウイカなど9件"
+      "summary": "アオリイカ・アジ・タチウオなど8件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 19,
-      "recent_count": 34,
+      "new_count": 17,
+      "recent_count": 35,
       "species": [
         "アオリイカ",
-        "カワハギ",
-        "ハマチ"
+        "ハマチ",
+        "カワハギ"
       ],
-      "summary": "アオリイカ・カワハギ・サバなど19件"
+      "summary": "アオリイカ・ハマチ・グレなど17件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 17,
-      "recent_count": 28,
+      "new_count": 19,
+      "recent_count": 32,
       "species": [
         "サバ",
         "アジ",
-        "イワシ"
+        "グレ"
       ],
-      "summary": "サバ・アジ・イワシなど17件"
+      "summary": "サバ・アジ・グレなど19件"
     },
     {
       "id": "maizuru",
       "label": "舞鶴",
-      "new_count": 1,
-      "recent_count": 11,
+      "new_count": 2,
+      "recent_count": 10,
       "species": [
         "アオリイカ",
         "スズキ"
       ],
-      "summary": "アオリイカなど1件"
+      "summary": "アオリイカなど2件"
     },
     {
       "id": "kyotango",
@@ -65,24 +65,25 @@
     {
       "id": "wakasa",
       "label": "若狭",
-      "new_count": 7,
+      "new_count": 3,
       "recent_count": 7,
       "species": [
-        "アオリイカ"
+        "アオリイカ",
+        "コウイカ"
       ],
-      "summary": "アオリイカなど7件"
+      "summary": "アオリイカ・コウイカなど3件"
     },
     {
       "id": "wakayama",
       "label": "和歌山市",
-      "new_count": 8,
-      "recent_count": 30,
+      "new_count": 13,
+      "recent_count": 34,
       "species": [
         "タチウオ",
         "アオリイカ",
         "アジ"
       ],
-      "summary": "アオリイカ・タチウオ・アジなど8件"
+      "summary": "アオリイカ・シオ・アジなど13件"
     }
   ],
   "sources": {
