@@ -1,89 +1,89 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T05:16:07+09:00",
+  "generated_at": "2026-10-13T05:15:54+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 9,
-      "recent_count": 27,
+      "new_count": 8,
+      "recent_count": 26,
       "species": [
-        "タチウオ",
         "アオリイカ",
+        "タチウオ",
         "アジ"
       ],
-      "summary": "アオリイカ・アジ・タチウオなど9件"
+      "summary": "アオリイカ・ハマチ・サバなど8件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 21,
-      "recent_count": 35,
+      "new_count": 25,
+      "recent_count": 39,
       "species": [
-        "アオリイカ",
+        "カワハギ",
         "ハマチ",
-        "サバ"
+        "アオリイカ"
       ],
-      "summary": "アオリイカ・サバ・青物など21件"
+      "summary": "アオリイカ・カワハギ・アジなど25件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 21,
+      "new_count": 22,
       "recent_count": 31,
       "species": [
-        "アオリイカ",
-        "チヌ",
-        "サバ"
+        "グレ",
+        "サバ",
+        "チヌ"
       ],
-      "summary": "アオリイカ・チヌ・サバなど21件"
+      "summary": "グレ・サバ・チヌなど22件"
     },
     {
       "id": "maizuru",
       "label": "舞鶴",
-      "new_count": 5,
+      "new_count": 0,
       "recent_count": 11,
       "species": [
         "アオリイカ",
         "コウイカ",
         "スズキ"
       ],
-      "summary": "アオリイカ・コウイカなど5件"
+      "summary": "新着なし。直近14日はアオリイカ・コウイカ・スズキなど11件"
     },
     {
       "id": "kyotango",
       "label": "京丹後",
-      "new_count": 2,
+      "new_count": 1,
       "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "アオリイカなど2件"
+      "summary": "アオリイカなど1件"
     },
     {
       "id": "wakasa",
       "label": "若狭",
-      "new_count": 5,
-      "recent_count": 7,
+      "new_count": 7,
+      "recent_count": 8,
       "species": [
         "アオリイカ",
         "コウイカ"
       ],
-      "summary": "コウイカ・アオリイカなど5件"
+      "summary": "アオリイカ・コウイカなど7件"
     },
     {
       "id": "wakayama",
       "label": "和歌山市",
       "new_count": 11,
-      "recent_count": 32,
+      "recent_count": 35,
       "species": [
         "タチウオ",
         "アオリイカ",
         "アジ"
       ],
-      "summary": "タチウオ・アジ・アオリイカなど11件"
+      "summary": "アオリイカ・アジ・カワハギなど11件"
     }
   ],
   "sources": {
