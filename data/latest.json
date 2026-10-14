@@ -1,56 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T05:16:12+09:00",
+  "generated_at": "2026-10-15T05:15:45+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 9,
-      "recent_count": 26,
+      "new_count": 3,
+      "recent_count": 24,
       "species": [
         "タチウオ",
-        "アオリイカ",
-        "アジ"
+        "アジ",
+        "アオリイカ"
       ],
-      "summary": "アオリイカ・コウイカ・ハマチなど9件"
+      "summary": "コウイカ・アジ・アオリイカなど3件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 13,
-      "recent_count": 39,
+      "new_count": 16,
+      "recent_count": 38,
       "species": [
-        "ハマチ",
         "カワハギ",
+        "ハマチ",
         "アオリイカ"
       ],
-      "summary": "コウイカ・ハマチ・アオリイカなど13件"
+      "summary": "カワハギ・アオリイカ・ブリなど16件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
       "new_count": 11,
-      "recent_count": 28,
+      "recent_count": 29,
       "species": [
-        "グレ",
         "サバ",
+        "サヨリ",
         "アジ"
       ],
-      "summary": "アジ・サバ・サヨリなど11件"
+      "summary": "サヨリ・サバ・イワシなど11件"
     },
     {
       "id": "maizuru",
       "label": "舞鶴",
       "new_count": 0,
-      "recent_count": 10,
+      "recent_count": 9,
       "species": [
         "アオリイカ",
-        "カサゴ",
-        "スズキ"
+        "カサゴ"
       ],
-      "summary": "新着なし。直近14日はアオリイカ・カサゴ・スズキなど10件"
+      "summary": "新着なし。直近14日はアオリイカ・カサゴなど9件"
     },
     {
       "id": "kyotango",
@@ -65,29 +64,29 @@
     {
       "id": "wakasa",
       "label": "若狭",
-      "new_count": 3,
-      "recent_count": 7,
+      "new_count": 1,
+      "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "アオリイカなど3件"
+      "summary": "アオリイカなど1件"
     },
     {
       "id": "wakayama",
       "label": "和歌山市",
-      "new_count": 6,
-      "recent_count": 36,
+      "new_count": 4,
+      "recent_count": 33,
       "species": [
         "アオリイカ",
         "アジ",
         "グレ"
       ],
-      "summary": "アオリイカ・グレ・アイゴなど6件"
+      "summary": "アオリイカ・スズキ・グレなど4件"
     }
   ],
   "sources": {
     "success": 25,
     "failed": 0,
-    "articles": 46
+    "articles": 41
   }
 }
