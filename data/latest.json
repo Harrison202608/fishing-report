@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T05:15:45+09:00",
+  "generated_at": "2026-10-16T05:16:10+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
@@ -8,25 +8,25 @@
       "id": "awaji",
       "label": "淡路島",
       "new_count": 3,
-      "recent_count": 24,
+      "recent_count": 23,
       "species": [
         "タチウオ",
         "アジ",
-        "アオリイカ"
+        "サバ"
       ],
-      "summary": "コウイカ・アジ・アオリイカなど3件"
+      "summary": "アオリイカ・カワハギ・グレなど3件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 16,
-      "recent_count": 38,
+      "new_count": 17,
+      "recent_count": 39,
       "species": [
-        "カワハギ",
         "ハマチ",
+        "カワハギ",
         "アオリイカ"
       ],
-      "summary": "カワハギ・アオリイカ・ブリなど16件"
+      "summary": "アオリイカ・サバ・ハマチなど17件"
     },
     {
       "id": "hanshinkan",
@@ -38,7 +38,7 @@
         "サヨリ",
         "アジ"
       ],
-      "summary": "サヨリ・サバ・イワシなど11件"
+      "summary": "サバ・グレ・サゴシなど11件"
     },
     {
       "id": "maizuru",
@@ -54,39 +54,39 @@
     {
       "id": "kyotango",
       "label": "京丹後",
-      "new_count": 0,
+      "new_count": 3,
       "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "新着なし。直近14日はアオリイカなど8件"
+      "summary": "アオリイカなど3件"
     },
     {
       "id": "wakasa",
       "label": "若狭",
-      "new_count": 1,
+      "new_count": 3,
       "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "アオリイカなど1件"
+      "summary": "アオリイカなど3件"
     },
     {
       "id": "wakayama",
       "label": "和歌山市",
-      "new_count": 4,
-      "recent_count": 33,
+      "new_count": 15,
+      "recent_count": 37,
       "species": [
-        "アオリイカ",
         "アジ",
-        "グレ"
+        "アオリイカ",
+        "タチウオ"
       ],
-      "summary": "アオリイカ・スズキ・グレなど4件"
+      "summary": "アオリイカ・アジ・タチウオなど15件"
     }
   ],
   "sources": {
     "success": 25,
     "failed": 0,
-    "articles": 41
+    "articles": 55
   }
 }
