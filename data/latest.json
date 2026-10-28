@@ -1,64 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T05:06:19+09:00",
+  "generated_at": "2026-10-29T05:06:17+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 7,
+      "new_count": 4,
       "recent_count": 22,
       "species": [
         "アオリイカ",
         "アジ",
         "カワハギ"
       ],
-      "summary": "アオリイカなど7件"
+      "summary": "アオリイカなど4件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 8,
-      "recent_count": 30,
+      "new_count": 21,
+      "recent_count": 35,
       "species": [
         "ハマチ",
-        "グレ",
-        "カワハギ"
+        "アオリイカ",
+        "グレ"
       ],
-      "summary": "ハマチ・ウマヅラハギ・グレなど8件"
+      "summary": "アオリイカ・マダイ・ウマヅラハギなど21件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
       "new_count": 12,
-      "recent_count": 28,
+      "recent_count": 30,
       "species": [
         "サバ",
-        "タチウオ",
+        "アジ",
         "グレ"
       ],
-      "summary": "グレ・サバ・チヌなど12件"
+      "summary": "サバ・アジ・グレなど12件"
     },
     {
       "id": "maizuru",
       "label": "舞鶴",
-      "new_count": 0,
+      "new_count": 1,
       "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "新着なし。直近14日はアオリイカなど8件"
+      "summary": "アオリイカなど1件"
     },
     {
       "id": "kyotango",
       "label": "京丹後",
-      "new_count": 0,
+      "new_count": 3,
       "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "新着なし。直近14日はアオリイカなど8件"
+      "summary": "アオリイカなど3件"
     },
     {
       "id": "wakasa",
@@ -73,19 +73,19 @@
     {
       "id": "wakayama",
       "label": "和歌山市",
-      "new_count": 6,
-      "recent_count": 35,
+      "new_count": 9,
+      "recent_count": 36,
       "species": [
         "アオリイカ",
         "タチウオ",
         "アジ"
       ],
-      "summary": "アジ・タチウオ・アオリイカなど6件"
+      "summary": "アオリイカ・アジ・ブリなど9件"
     }
   ],
   "sources": {
     "success": 24,
     "failed": 1,
-    "articles": 41
+    "articles": 54
   }
 }
