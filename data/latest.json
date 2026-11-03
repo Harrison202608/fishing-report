@@ -1,75 +1,75 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T05:06:07+09:00",
+  "generated_at": "2026-11-04T05:13:46+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 7,
-      "recent_count": 20,
+      "new_count": 8,
+      "recent_count": 19,
       "species": [
         "アオリイカ",
-        "タチウオ",
-        "アジ"
+        "アジ",
+        "グレ"
       ],
-      "summary": "アオリイカ・タチウオ・サバなど7件"
+      "summary": "アオリイカ・メバル・マダイなど8件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 18,
-      "recent_count": 31,
+      "new_count": 17,
+      "recent_count": 29,
       "species": [
-        "ハマチ",
-        "アジ",
-        "カワハギ"
+        "カワハギ",
+        "アオリイカ",
+        "アジ"
       ],
-      "summary": "アジ・アオリイカ・カワハギなど18件"
+      "summary": "アオリイカ・アジ・カワハギなど17件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 10,
+      "new_count": 22,
       "recent_count": 33,
       "species": [
         "サバ",
-        "アジ",
-        "サワラ"
+        "チヌ",
+        "アジ"
       ],
-      "summary": "サワラ・アジ・サバなど10件"
+      "summary": "サバ・チヌ・サッパなど22件"
     },
     {
       "id": "maizuru",
       "label": "舞鶴",
-      "new_count": 0,
+      "new_count": 2,
       "recent_count": 8,
       "species": [
         "アオリイカ",
         "コウイカ"
       ],
-      "summary": "新着なし。直近14日はアオリイカ・コウイカなど8件"
+      "summary": "アオリイカなど2件"
     },
     {
       "id": "kyotango",
       "label": "京丹後",
-      "new_count": 1,
-      "recent_count": 7,
-      "species": [
-        "アオリイカ"
-      ],
-      "summary": "アオリイカなど1件"
-    },
-    {
-      "id": "wakasa",
-      "label": "若狭",
       "new_count": 0,
       "recent_count": 7,
       "species": [
         "アオリイカ"
       ],
       "summary": "新着なし。直近14日はアオリイカなど7件"
+    },
+    {
+      "id": "wakasa",
+      "label": "若狭",
+      "new_count": 3,
+      "recent_count": 5,
+      "species": [
+        "アオリイカ"
+      ],
+      "summary": "アオリイカなど3件"
     },
     {
       "id": "wakayama",
@@ -81,12 +81,12 @@
         "アオリイカ",
         "グレ"
       ],
-      "summary": "アオリイカ・コウイカ・アジなど9件"
+      "summary": "アオリイカ・アジ・コウイカなど9件"
     }
   ],
   "sources": {
     "success": 25,
     "failed": 0,
-    "articles": 50
+    "articles": 60
   }
 }
