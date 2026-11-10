@@ -1,44 +1,44 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T05:05:42+09:00",
+  "generated_at": "2026-11-11T05:05:40+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 5,
+      "new_count": 3,
       "recent_count": 21,
       "species": [
         "アオリイカ",
         "タチウオ",
-        "グレ"
+        "カワハギ"
       ],
-      "summary": "アオリイカ・タチウオ・グレなど5件"
+      "summary": "タチウオ・ヒラメ・アオリイカなど3件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 14,
-      "recent_count": 33,
+      "new_count": 10,
+      "recent_count": 32,
       "species": [
         "カワハギ",
         "アオリイカ",
         "ハマチ"
       ],
-      "summary": "ハマチ・アオリイカ・カレイなど14件"
+      "summary": "アオリイカ・チャリコ・グレなど10件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 13,
-      "recent_count": 33,
+      "new_count": 15,
+      "recent_count": 32,
       "species": [
+        "チヌ",
         "アジ",
-        "グレ",
-        "イワシ"
+        "サバ"
       ],
-      "summary": "アジ・グレ・チヌなど13件"
+      "summary": "チヌ・サッパ・サバなど15件"
     },
     {
       "id": "maizuru",
@@ -53,40 +53,39 @@
     {
       "id": "kyotango",
       "label": "京丹後",
-      "new_count": 3,
+      "new_count": 0,
       "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "アオリイカなど3件"
+      "summary": "新着なし。直近14日はアオリイカなど8件"
     },
     {
       "id": "wakasa",
       "label": "若狭",
       "new_count": 0,
-      "recent_count": 7,
+      "recent_count": 6,
       "species": [
-        "アオリイカ",
-        "コウイカ"
+        "アオリイカ"
       ],
-      "summary": "新着なし。直近14日はアオリイカ・コウイカなど7件"
+      "summary": "新着なし。直近14日はアオリイカなど6件"
     },
     {
       "id": "wakayama",
       "label": "和歌山市",
-      "new_count": 6,
-      "recent_count": 27,
+      "new_count": 4,
+      "recent_count": 26,
       "species": [
+        "タチウオ",
         "チヌ",
-        "アオリイカ",
-        "タチウオ"
+        "グレ"
       ],
-      "summary": "アオリイカなど6件"
+      "summary": "アオリイカ・タチウオ・カワハギなど4件"
     }
   ],
   "sources": {
     "success": 25,
     "failed": 0,
-    "articles": 43
+    "articles": 38
   }
 }
