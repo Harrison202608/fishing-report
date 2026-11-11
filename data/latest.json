@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T05:05:40+09:00",
+  "generated_at": "2026-11-12T05:05:39+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
@@ -10,35 +10,35 @@
       "new_count": 3,
       "recent_count": 21,
       "species": [
-        "アオリイカ",
         "タチウオ",
+        "アオリイカ",
         "カワハギ"
       ],
-      "summary": "タチウオ・ヒラメ・アオリイカなど3件"
+      "summary": "アオリイカ・コウイカなど3件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 10,
-      "recent_count": 32,
+      "new_count": 20,
+      "recent_count": 34,
       "species": [
-        "カワハギ",
         "アオリイカ",
+        "カワハギ",
         "ハマチ"
       ],
-      "summary": "アオリイカ・チャリコ・グレなど10件"
+      "summary": "アオリイカ・コブダイ・キスなど20件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 15,
-      "recent_count": 32,
+      "new_count": 14,
+      "recent_count": 33,
       "species": [
-        "チヌ",
+        "サバ",
         "アジ",
-        "サバ"
+        "チヌ"
       ],
-      "summary": "チヌ・サッパ・サバなど15件"
+      "summary": "サバ・アジ・チヌなど14件"
     },
     {
       "id": "maizuru",
@@ -63,29 +63,30 @@
     {
       "id": "wakasa",
       "label": "若狭",
-      "new_count": 0,
+      "new_count": 4,
       "recent_count": 6,
       "species": [
-        "アオリイカ"
+        "アオリイカ",
+        "コウイカ"
       ],
-      "summary": "新着なし。直近14日はアオリイカなど6件"
+      "summary": "アオリイカなど4件"
     },
     {
       "id": "wakayama",
       "label": "和歌山市",
       "new_count": 4,
-      "recent_count": 26,
+      "recent_count": 27,
       "species": [
+        "アジ",
         "タチウオ",
-        "チヌ",
-        "グレ"
+        "チヌ"
       ],
-      "summary": "アオリイカ・タチウオ・カワハギなど4件"
+      "summary": "アジ・アオリイカ・アイゴなど4件"
     }
   ],
   "sources": {
     "success": 25,
     "failed": 0,
-    "articles": 38
+    "articles": 47
   }
 }
