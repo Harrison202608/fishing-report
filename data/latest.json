@@ -1,55 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T05:05:41+09:00",
+  "generated_at": "2026-11-22T05:05:30+09:00",
   "status": "ok",
   "page_url": "https://harrison202608.github.io/fishing-report/",
   "areas": [
     {
       "id": "awaji",
       "label": "淡路島",
-      "new_count": 6,
-      "recent_count": 25,
+      "new_count": 10,
+      "recent_count": 23,
       "species": [
         "アオリイカ",
-        "カワハギ",
-        "タチウオ"
+        "タチウオ",
+        "アジ"
       ],
-      "summary": "タチウオ・アオリイカ・グレなど6件"
+      "summary": "アオリイカ・タチウオ・グレなど10件"
     },
     {
       "id": "suma_akashi",
       "label": "須磨〜明石",
-      "new_count": 5,
+      "new_count": 11,
       "recent_count": 31,
       "species": [
         "アオリイカ",
-        "マダイ",
+        "カワハギ",
         "ハマチ"
       ],
-      "summary": "アジ・マダイ・サバなど5件"
+      "summary": "カワハギ・アジ・アコウなど11件"
     },
     {
       "id": "hanshinkan",
       "label": "阪神間",
-      "new_count": 9,
+      "new_count": 20,
       "recent_count": 28,
       "species": [
         "アジ",
         "チヌ",
         "サバ"
       ],
-      "summary": "チヌ・アジ・ブリなど9件"
+      "summary": "アジ・チヌ・サバなど20件"
     },
     {
       "id": "maizuru",
       "label": "舞鶴",
-      "new_count": 0,
+      "new_count": 1,
       "recent_count": 8,
       "species": [
         "アオリイカ",
         "コウイカ"
       ],
-      "summary": "新着なし。直近14日はアオリイカ・コウイカなど8件"
+      "summary": "アオリイカなど1件"
     },
     {
       "id": "kyotango",
@@ -65,29 +65,29 @@
     {
       "id": "wakasa",
       "label": "若狭",
-      "new_count": 0,
+      "new_count": 4,
       "recent_count": 8,
       "species": [
         "アオリイカ"
       ],
-      "summary": "新着なし。直近14日はアオリイカなど8件"
+      "summary": "アオリイカなど4件"
     },
     {
       "id": "wakayama",
       "label": "和歌山市",
-      "new_count": 10,
-      "recent_count": 29,
+      "new_count": 9,
+      "recent_count": 26,
       "species": [
         "アジ",
         "アオリイカ",
         "タチウオ"
       ],
-      "summary": "アジ・アオリイカ・タチウオなど10件"
+      "summary": "アジ・スズキ・コウイカなど9件"
     }
   ],
   "sources": {
     "success": 25,
     "failed": 0,
-    "articles": 38
+    "articles": 58
   }
 }
